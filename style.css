@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 44px;
+    top: 0;
+    padding-top: 17.35px;
+    padding-bottom: 17.84px;
+    background-color: #f5f5f780;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27.14px;
+}
+.header-med {
+    display: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 27.14px;
+    list-style: none;
+}
+
+li a {
+    height: 8.85px;
+    color: #00000080;
+}
+
+.donation {
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 13.89px;
+    line-height: 20.59px;
+    text-align: center;
+    color: #1d1d1f;
+    margin-top: 62px;
+    padding-top: 18px;
+    padding-bottom: 18.58px;
+    background-color: #ffffff;
+}
+
+.paragraph   {
+    font-family: helvetica Neune;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1d1d1f;
+    margin-top: 63px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #ffffff;
+}
+.small {
+    display: none;
+}
+.gift-card {
+    display: none;
+    font-family: helvetica neune;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20.59px;
+    text-align: center;
+    color: #1d1d1f;
+    margin-top: 44 px;
+    padding-top: 18px;
+    padding-bottom: 18.58px;
+    background-color: #ffffff;
+}
+
+.d-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    gap: 17.42px;
+}
+
+.d-16pro-big {
+    background-image: url(assets/16pro-big.png);
+    background-size: cover;
+    width: 100vw;
+    height: 692px;
+    margin-bottom: 12px;
+}
+
+.d-16-big {
+    background-image: url(assets/16-big.png);
+    background-size: cover;
+    width: 100vw;
+    height: 692px;
+    margin-bottom: 12px;
+}
+
+.d-gift-big {
+    background-image: url(assets/gift-big.png);
+    background-size: cover;
+    width: 100vw;
+    height: 692px;
+    margin-bottom: 12px;
+}
+
+.d-ipadair-med {
+    display: none;
+    background-image: url(assets/ipadair-med.png);
+    width: 100vw;
+    height: 650px;
+    background-size: cover;
+}
+
+.d-airpods4-med {
+    display: none;
+}
+
+.d-watch-med {
+    display: none;
+}
+
+.head-top {
+    font-family: inter;
+    font-weight: 600px;
+    font-size: 51.41px;
+    line-height: 60px;
+    text-align: center;
+    color: #f5f5f7;
+    margin-top: 55px;
+}
+
+.head-top-gift {
+    font-family: inter;
+    font-weight: 600px;
+    font-size: 51.41px;
+    line-height: 60px;
+    text-align: center;
+    color: #1d1d1f;
+    margin-top: 476px;
+}
+
+.head-bottom {
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 24.28px;
+    line-height: 32px;
+    text-align: center;
+    color: #f5f5f7;
+    margin-top: 6px;
+}
+
+.head-bottom-gift {
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 24.28px;
+    line-height: 32px;
+    text-align: center;
+    color: #1d1d1f;
+    margin-top: 6px;
+}
+
+.btn {
+    border-radius: 980px;
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 16.87px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.btn-first1 {
+    width: 130.72px;
+    height: 44px;
+    border: none;
+    background-color: #0071e3;
+    color: #ffffff;
+}
+
+.btn-first2 {
+    width: 130.72px;
+    height: 44px;
+    border: none;
+    background-color: #f5f5f7;
+    color: #000000;
+}
+
+.btn-second1 {
+    width: 73.2px;
+    height: 44px;
+    border: 1px solid #2997ff;
+    background-color: transparent;
+    color: #2997ff;
+}
+
+.btn-second2 {
+    width: 73.2px;
+    height: 44px;
+    border: 1px solid #f5f5f7;
+    background-color: transparent;
+    color: #f5f5f7;
+}
+
+.btn-gift {
+    width: 121.92px;
+    height: 44px;
+    border: none;
+    background-color: #0071e3;
+    color: #ffffff;
+    align-self: center;
+    margin-top: 19px;
+}
+
+.layers {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.d-ipadair-big {
+    background-image: url(assets/ipadair-big.png);
+    width: 50vw;
+    height: 580px;
+    background-size: cover;
+}
+
+.d-airpodspro2-big {
+    background-image: url(assets/airpodspro2-big.png);
+    width: 50vw;
+    height: 580px;
+    background-size: cover;
+}
+
+.d-watch-big {
+    background-image: url(assets/watch-big.png);
+    width: 50vw;
+    height: 580px;
+    background-size: cover;
+}
+
+.d-watch-med {
+    display: none;
+}
+
+.d-macbookair-big {
+    background-image: url(assets/macbookair-big.png);
+    width: 50vw;
+    height: 580px;
+    background-size: cover;
+}
+
+.d-macbookair-med {
+    display: none;
+}
+
+.d-business-med {
+    display: none;
+}
+
+.d-tradein-big {
+    background-image: url(assets/tradein-big.png);
+    width: 50vw;
+    height: 580px;
+    background-size: cover;
+}
+
+.d-carrier-med {
+    display: none;
+}
+
+.d-tradein-med {
+    display: none;
+}
+
+.d-card-big {
+    background-image: url(assets/card-big.png);
+    width: 50vw;
+    height: 580px;
+    background-size: cover;
+}
+
+.layer-d-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-d-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-head-top {
+    font-family: inter;
+    font-weight: 600px;
+    font-size: 36.25px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 53px;
+    color: #1d1d1f;
+}
+
+.layer-head-top-airpod {
+    font-family: inter;
+    font-weight: 600px;
+    font-size: 36.25px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 401px;
+    color: #f5f5f7;
+}
+
+.layer-head-img {
+    margin-top: 58px;
+    margin-bottom: 10px;
+}
+
+.layer-head-bottom {
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 17.88px;
+    line-height: 25px;
+    text-align: center;
+    color: #1d1d1f;
+}
+
+.layer-head-bottom-airpod {
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 17.88px;
+    line-height: 25px;
+    text-align: center;
+    color: #f5f5f7;
+}
+
+.layers-btn {
+    border-radius: 980px;
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 13.89px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.layers-btn-tradein {
+    width: 145.41px;
+    height: 36px;
+    border: none;
+    background-color: #0071e3;
+    color: #ffffff;
+    align-self: center;
+    margin-top: 27px;
+}
+
+.layers-btn-first {
+    width: 104.25px;
+    height: 36px;
+    border: none;
+    background-color: #0071e3;
+    color: #ffffff;
+}
+
+.layers-btn-second {
+    width: 62px;
+    height: 36px;
+    border: 1px solid #2997ff;
+    background-color: transparent;
+    color: #2997ff;
+}
+
+.d-layer-btns {
+    display: flex;
+    justify-content: center;
+    gap: 14.42px;
+    margin-top: 17px;
+}
+
+.scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 7.5px;
+    margin-bottom: 12px;
+}
+
+.scroll-big-img {
+    height: 667.25px;
+    min-width: 1265px;
+}
+
+.scroll-big-img-bottom {
+    height: 236px;
+    min-width: 417px;
+}
+
+.scroll-med-img {
+    display: none;
+}
+
+.scroll-med-img-bottom {
+    display: none;
+}
+
+.scroll-small {
+    display:none;
+}
+@media screen and (max-width: 768px) {
+    .header-big {
+        display: none;
+    }
+
+    .header-med {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .donation {
+        display: none;
+    }
+
+    .gift-card {
+        display: block;
+
+    }
+
+    .d-btns {
+        margin-top: 18px;
+    }
+
+    .d-16pro-big {
+        background-image: url(assets/16pro-med.png);
+        height: 650px;
+        margin-bottom: 12px;
+    }
+
+    .d-16-big {
+        background-image: url(assets/16-med.png);
+        height: 650px;
+    }
+
+    .d-gift-big {
+        display: none;
+    }
+
+    .head-top {
+        font-family: helvetica neue;
+        font-weight: 700px;
+        font-size: 43.88px;
+        line-height: 52.01px;
+        margin-top: 58px;
+    }
+
+    .head-bottom {
+        font-family: helvetica Neue;
+        font-size: 21.94px;
+        line-height: 28px;
+        margin-top: 2px;
+    }
+
+    .btn {
+        font-family: helvetica neune;
+        font-size: 17px;
+    }
+
+    .d-ipadair-med {
+        display: block;
+    }
+
+    .d-ipadair-big {
+        display: none;
+    }
+
+    .layer-head-img {
+        margin-top: 67px;
+        margin-bottom: 11px;
+    }
+
+    .layer-head-bottom {
+        font-family: helvetica neune;
+        font-size: 21.58px;
+        line-height: 28 px;
+    }
+
+    .d-airpodspro2-big {
+        display: none;
+    }
+
+    .d-airpods4-med {
+        display: block;
+        background-image: url(assets/airpods4-med.png);
+        width: 50vw;
+        height: 490px;
+    }
+
+    .d-watch-big {
+        display: none;
+    }
+
+    .d-watch-med {
+        display: block;
+        background-image: url(assets/watch-med.png);
+        width: 50vw;
+        height: 490px;
+    }
+
+    .d-watch-big {
+        display: none;
+    }
+
+    .d-macbookair-med {
+        display: block;
+        background-image: url(assets/macbookair-med.png);
+        width: 50vw;
+        height: 490px;
+    }
+
+    .d-macbookair-big {
+        display: none;
+    }
+
+    .d-business-med {
+        display: block;
+        background-image: url(assets/business-med.png);
+        width: 50vw;
+        height: 490px;
+    }
+
+    .d-tradein-med {
+        display: block;
+        background-image: url(assets/tradein-med.png);
+        width: 50vw;
+        height: 490px;
+    }
+
+    .d-carrier-med {
+        display: block;
+        background-image: url(assets/carrier-med.png);
+        width: 50vw;
+        height: 490px;
+    }
+
+    .d-tradein-big {
+        display: none;
+    }
+
+    .d-card-big {
+        display: none;
+    }
+
+    .layer-head-top {
+        font-family: helvetica neune;
+        font-weight: 700px;
+        font-size: 29px;
+        line-height: 36px;
+        margin-top: 42px;
+    }
+
+    .layer-head-top-airpod {
+        font-family: helvetica Neune;
+        font-weight: 700px;
+        font-size: 29.88px;
+        line-height: 36px;
+        margin-top: 286px;
+    }
+
+    .layer-head-bottom-airpod {
+        font-family: helvetica neune;
+        font-size: 17.66px;
+        line-height: 23px;
+    }
+
+    .layer-head-top-carrier {
+        font-family: helvetica Neune;
+        font-weight: 700px;
+        font-size: 29.88px;
+        line-height: 36px;
+        margin-top: 286px;
+    }
+
+    .layer-head-bottom-carrier {
+        font-family: helvetica neune;
+        font-size: 17.66px;
+        line-height: 23px;
+    }
+
+    .layers-btn {
+        font-family: helvetica neue;
+        font-size: 14px;
+    }
+
+    .layers-btn-tradein {
+        margin-top: 17px;
+    }
+
+    .scroll-big-img {
+        display: none;
+    }
+
+    .scroll-big-img-bottom {
+        display: none;
+    }
+
+    .scroll-med-img {
+        display: block;
+        height: 367.78px;
+        min-width: 689px;
+    }
+
+    .scroll-med-img-bottom {
+        display: block;
+        height: 161px;
+        min-width: 286px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .small{
+        display: block;
+    }
+    .iPhone {
+        display: none;
+    }
+    
+    .layers {
+        display: none;
+    }
+    .scroll {
+        display: none;
+    }
+    .d-airpods4-small {
+        display: block;
+        background-image: url(assets/airpods4-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+
+    .d-watch-small {
+        display: block;
+        background-image: url(assets/watch-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+
+    .d-macbookair-small {
+        display: block;
+        background-image: url(assets/macbookair-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+    .d-business-small {
+        display: block;
+        background-image: url(assets/business-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+
+    .d-tradein-small {
+        display: block;
+        background-image: url(assets/tradein-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+
+    .d-carrier-small {
+        display: block;
+        background-image: url(assets/carrier-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+    .d-16pro-small {
+        display: block;
+        background-image: url(assets/16pro-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+
+    .d-16-small {
+        display: block;
+        background-image: url(assets/16-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+
+    .d-ipadair-small {
+        display: block;
+        background-image: url(assets/ipadair-small.png);
+        width: 100vw;
+        height: 500px;
+        margin-bottom: 12px;
+    }
+    .color-white {
+        color: #f5f5f7;
+    }
+    .layer-head-top-small {
+        font-family: inter;
+        font-weight: 600px;
+        font-size: 36.25px;
+        line-height: 44px;
+        text-align: center;
+        margin-top: 37px;
+        color: #1d1d1f;
+    }
+    
+    .layer-head-top-airpod-small {
+        font-family: inter;
+        font-weight: 600px;
+        font-size: 36.25px;
+        line-height: 44px;
+        text-align: center;
+        margin-top: 301px;
+        color: #f5f5f7;
+    }
+    .layer-head-top-16pro-small {
+        font-family: helvetica Neune;
+        font-weight: 700px;
+        font-size: 29.88px;
+        line-height: 36px;
+        margin-top: 347px;
+    }
+    .layer-head-top-carrier-small {
+        font-family: helvetica Neune;
+        font-weight: 700px;
+        font-size: 29.88px;
+        line-height: 36px;
+        margin-top: 301px;
+    }
+    .layer-head-img {
+        margin-top: 41px;
+        margin-bottom: 11px;
+    }
+    .scroll-small {
+        display: flex;
+        overflow-x: scroll;
+        gap: 7.5px;
+        margin-bottom: 12px;
+    }
+    
+    .scroll-small-img {
+        height: 495px;
+        min-width: 274px;
+    }
+    
+    .scroll-small-img-bottom {
+        height: 134px;
+        min-width: 238px;
+    }
+}
